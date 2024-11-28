@@ -1,3 +1,4 @@
+# Maven specific files
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -6,12 +7,75 @@ pom.xml.next
 release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
-.mvn/timing.properties
-# https://github.com/takari/maven-wrapper#usage-without-binary-jar
-.mvn/wrapper/maven-wrapper.jar
 
-# Eclipse m2e generated files
-# Eclipse Core
+# Maven Wrapper files
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/timing.properties
+
+# Eclipse specific files
 .project
-# JDT-specific (Eclipse Java Development Tools)
 .classpath
+.settings/
+# Other Eclipse files
+*.launch
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.iws
+out/
+
+# NetBeans specific files
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# VS Code specific files
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+
+# Compiled bytecode
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Spring Boot specific files
+logs/
+*.log
+*.pid
+*.gz
+
+# Security files
+*.jks
+*.p12
+*.pem
+*.crt
+*.key
+
+# IDE-specific files
+*.factorypath
+
+# Generated files
+target/
+/src/main/resources/static/javadocs/**
